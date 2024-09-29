@@ -1,5 +1,9 @@
 package org.example.prototype;
 
+
+// Абстрактный класс Order, реализующий интерфейс Cloneable.
+// Показывает состав заказа и клонирует и создает метод который выводит клон
+
 public abstract class Order implements Cloneable {
     private String coffeeType;
     private double price;

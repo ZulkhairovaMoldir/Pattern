@@ -1,5 +1,7 @@
 package org.example.builder;
 
+// То что можна выбрать в кофе и метод который выводит состав
+
 public class Coffee {
     String beans;
     String syrup;

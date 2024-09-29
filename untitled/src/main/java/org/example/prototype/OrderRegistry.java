@@ -3,6 +3,9 @@ package org.example.prototype;
 import java.util.HashMap;
 import java.util.Map;
 
+// Создаеться список для сохраение заказов и вложили заказы
+// Возвращает клон при создание заказа с похожим именим
+
 public class OrderRegistry {
     private Map<String, Order> orders = new HashMap<>();
 

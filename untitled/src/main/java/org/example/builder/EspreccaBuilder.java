@@ -1,5 +1,7 @@
 package org.example.builder;
 
+// Создаеться новый кофе эспресса с помощью внесением названия ингредиентов и вызывом кофе
+
 public class EspreccaBuilder implements CoffeeBuilder{
     private Coffee coffee;
 
@@ -8,10 +10,7 @@ public class EspreccaBuilder implements CoffeeBuilder{
     }
 
     @Override
-    public void buildBeans() {
-        coffee.setBeans("Либерское зерно");
-    }
-
+    public void buildBeans() {coffee.setBeans("Либерское зерно");}
     @Override
     public void buildSyrup(){
         coffee.setSyrup("Карамельный сироп");

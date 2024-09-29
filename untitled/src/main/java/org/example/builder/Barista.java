@@ -1,5 +1,7 @@
 package org.example.builder;
 
+// Класс Barista, который управляет процессом создания кофе с помощью CoffeeBuilder.
+
 public class Barista {
     private CoffeeBuilder coffeeBuilder;
 

@@ -1,5 +1,7 @@
 package org.example.builder;
 
+// Создаеться новый кофе айс латте с помощью внесением названия ингредиентов и вызывом кофе
+
 public class IceLatteBuilder implements CoffeeBuilder {
     private Coffee coffee;
 
