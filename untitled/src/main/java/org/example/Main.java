@@ -16,8 +16,10 @@ import org.example.prototype.OrderRegistry;
 import org.example.singleton.Coffee;
 
 
+
 public class Main {
     public static void main(String[] args) {
+
         //Singleton
         Coffee coffeeShop = Coffee.getInstance();
 
